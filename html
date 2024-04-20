@@ -1,0 +1,106 @@
+/* General styles */
+html {
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('Login.png');
+}
+
+/* Styles for forgot password link */
+.forgot-password {
+    color: #6d6262;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px; /* Add margin-top to move it down */
+}
+
+/* Styles for login box */
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    height: 550px;
+    width: 450px;
+    padding: 101px;
+    transform: translate(-50%, -50%);
+    background: #0A1D32;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 20px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #6d6262;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #788891;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Playfair Display', serif;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #00f1fd;
+    font-size: 17px;
+}
+
+/* Styles for submit button */
+.login-box .submit-button {
+    position: center;
+    display: inline-block;
+    padding: 10px 80px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 10px;
+    margin-left: 1px;
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+    background: #fcc100e8;
+    color: #fff;
+    border-radius: 150px;
+}
+
+.login-box .submit-button:hover {
+    background: #ffcc00;
+    color: #fff;
+    transition: 0.2s;
+    transform: translateY(-3px); /* Move button slightly up on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
