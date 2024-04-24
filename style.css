@@ -1,0 +1,105 @@
+.header {
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-image: linear-gradient(#000000, #3533cd);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    margin-right: 1000px;
+    margin-top: 20px;
+}
+
+.news{
+    margin-right: 650px;
+    margin-top: -45px;
+}
+
+.schedule{
+    margin-right: 250px;
+    margin-top: -43px
+}
+
+.aboutus{
+    margin-left: 150px;
+    margin-top: -45px;
+}
+
+.contactus{
+    margin-left: 550px;
+    margin-top: -45px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.piclob{
+    width: 1915px;
+    height: 400px;
+    object-fit:cover;
+    object-position: 25%;
+    transform: scale(0.5) translate(1, 5%);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.container{
+    margin-top: -325px;
+    margin-left: 250px;
+    position:absolute;
+    height: 48%;
+    clip-path: inset(20x 60px 10px 0 50px);
+    left:12.5%;
+}
+
+.logontc{
+    position: absolute;
+    bottom: 59%;
+    left: 5.75%;
+}
+
+.vl {
+    position:absolute;
+    border-left: 4px solid #FFD51E;
+    height: 420px;
+    margin-left: 220px;
+    margin-top: -258.5px;
+}
+
+.vl2 {
+    position:absolute;
+    border-left: 4px solid #FFD51E;
+    height: 500px;
+    margin-left: 1690px;
+    margin-top: -340px;
+}
+.hl {
+    position: absolute;
+    border-bottom: 4px solid #FFD51E;
+    margin-top: 160px;
+    width: 76.75%;
+    margin-left: 220px;
+}
+.hl2{
+    position: absolute;
+    border-bottom: 4px solid #FFD51E;
+    margin-top: -340px;
+    width: 50.35%;
+    margin-left: 727px;
+}
+.menutext{
+    position: absolute;
+    margin-left: 815px;
+    margin-top: 175px;
+    font-size: 30px;
+    color: #3533cd;
+    font-family: Georgia, serif;
+}
